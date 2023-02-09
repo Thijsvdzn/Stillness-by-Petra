@@ -1,0 +1,45 @@
+#navigatie {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    align-items: center;
+    background-color: #FFEFE5;
+}
+
+#logo {
+    height: 80px;
+}
+
+#navigatieLinks{
+    width: 30%;
+    margin-left: 2%;
+}
+
+#navigatieRechts {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navigatieLijst {
+    font-family: Raleway;
+    font-size: 24px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#navigatieLijst li {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+#navigatieLijst button {
+    padding: 12px 15px 12px 15px;
+    background-color: #D55734;
+    box-shadow: 3px 3px 10px #D5573480;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-size: 24px;
+    color: #FFFFFF;
+}
