@@ -1,0 +1,128 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerImage {
+    height: 90vh;
+    background-image: url(../images/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#headerText {
+    width: 1088px;
+}
+
+#ontspanningEnMassage {
+    width: 812px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ontspanningEnMassage h2 {
+    margin-bottom: 30px;
+}
+
+#ontspanningEnMassage p {
+    margin-bottom: 30px;
+}
+
+#diensten {
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FFEFE5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dienst {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#dienst1, #dienst2 {
+    margin-right: 174px;
+}
+
+.dienst img {
+    border-radius: 500px;
+    height: 240px;
+    width: 240px;
+    margin-bottom: 30px;
+}
+
+.dienst hr {
+    width: 240px;
+    height: 2px;
+    color: #D55734;
+    background-color: #D55734;
+    border-color: #D55734;;
+    margin-bottom: 15px;
+}
+
+#overMij {
+    width: 812px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#overMijTekst {
+    margin-right: 16px;
+}
+
+#overMijTekst h2 {
+    margin-bottom: 30px;
+}
+
+#overMijTekst p {
+    margin-bottom: 30px;
+}
+
+#overMijImage img {
+    width: 398px;
+    height: 298px;
+}
+
+#testimonials {
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FFEFE5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.testimonial {
+    width: 260px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.testimonial img, p {
+    margin-bottom: 15px;
+}
+
+#testimonial1, #testimonial2 {
+    margin-right: 54px;
+}

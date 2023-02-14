@@ -1,4 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Raleway&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+/* NAVIGATIE */
+#navigatie {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    align-items: center;
+    background-color: #FFEFE5;
+}
+
+#logo {
+    height: 80px;
+}
+
+#navigatieLinks{
+    width: 30%;
+    margin-left: 2%;
+}
+
+#navigatieRechts {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navigatieLijst {
+    font-family: Raleway, Arial;
+    font-size: 24px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#navigatieLijst li {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+
+
+/* TEXT */
+h1 {
+    font-size: 72px;
+    font-family: Raleway;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: Raleway;
+    color: #D55734;
+}
+
+h3 {
+    font-size: 32px;
+    font-family: Raleway;
+    color: #D55734;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: Raleway;
+    color: #000000;
+}
+
+h5 {
+    
+}
+
+p {
+    font-size: 20px;
+    font-family: Cabin;
+    color: #000000;
+}
+
+button {
+    padding: 12px 15px 12px 15px;
+    background-color: #D55734;
+    box-shadow: 3px 3px 10px #D5573480;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-size: 24px;
+    color: #FFFFFF;
 }
