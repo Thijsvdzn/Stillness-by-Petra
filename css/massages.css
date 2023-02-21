@@ -1,0 +1,248 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerImage {
+    height: 90vh;
+    background-image: url(../images/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#headerText {
+    width: 1088px;
+}
+
+/* MASSAGE 1 */
+#massage1 {
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEFE5;
+}
+
+#massage1Info {
+    display: flex;
+    flex-direction: row;
+}
+
+#massage1 h2 {
+    margin-bottom: 30px;
+}
+
+#massage1Image {
+    width: 536px;
+}
+
+#massage1Image img {
+    width: 398px;
+    height: 398px;
+}
+
+#massage1Tekst {
+    width: 536px;
+    padding-right: 16px;
+}
+
+#massage1Prijs {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 138px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#massage1Prijs h4 {
+    color: #D55734;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#massage1Prijs hr {
+    height: 2px;
+    color: #D55734;
+    background-color: #D55734;
+    border-color: #D55734;
+}
+
+/* MASSAGE 2 */
+#massage2 {
+    width: 1088px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#massage2Info {
+    display: flex;
+    flex-direction: row;
+}
+
+#massage2 h2 {
+    margin-bottom: 30px;
+}
+
+#massage2Image {
+    width: 536px;
+}
+
+#massage2Image img {
+    width: 398px;
+    height: 398px;
+}
+
+#massage2Tekst {
+    width: 536px;
+    padding-right: 16px;
+}
+
+#massage2Prijs {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 138px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #FFEFE5;
+}
+
+#massage2Prijs h4 {
+    color: #D55734;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#massage2Prijs hr {
+    height: 2px;
+    color: #D55734;
+    background-color: #D55734;
+    border-color: #D55734;
+}
+
+/* MASSAGE 3 */
+#massage3 {
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEFE5;
+}
+
+#massage3Info {
+    display: flex;
+    flex-direction: row;
+}
+
+#massage3 h2 {
+    margin-bottom: 30px;
+}
+
+#massage3Image {
+    width: 536px;
+}
+
+#massage3Image img {
+    width: 398px;
+    height: 398px;
+}
+
+#massage3Tekst {
+    width: 536px;
+    padding-right: 16px;
+}
+
+#massage3Prijs {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 138px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#massage3Prijs h4 {
+    color: #D55734;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#massage3Prijs hr {
+    height: 2px;
+    color: #D55734;
+    background-color: #D55734;
+    border-color: #D55734;
+}
+
+/* MASSAGE 2 */
+#massage4 {
+    width: 1088px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#massage4Info {
+    display: flex;
+    flex-direction: row;
+}
+
+#massage4 h2 {
+    margin-bottom: 30px;
+}
+
+#massage4Image {
+    width: 536px;
+}
+
+#massage4Image img {
+    width: 398px;
+    height: 398px;
+}
+
+#massage4Tekst {
+    width: 536px;
+    padding-right: 16px;
+}
+
+#massage4Prijs {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 138px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #FFEFE5;
+}
+
+#massage4Prijs h4 {
+    color: #D55734;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#massage4Prijs hr {
+    height: 2px;
+    color: #D55734;
+    background-color: #D55734;
+    border-color: #D55734;
+}
