@@ -1,0 +1,272 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerImage {
+    height: 90vh;
+    background-image: url(../images/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#headerText {
+    width: 1088px;
+}
+
+/* Workshop 1 */
+#workshop1 {
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEFE5;
+}
+
+#workshop1Info {
+    display: flex;
+    flex-direction: row;
+}
+
+#workshop1 h2 {
+    margin-bottom: 30px;
+}
+
+#workshop1Image {
+    width: 266px;
+}
+
+#workshop1Image img {
+    width: 266px;
+    height: 266px;
+    border-radius: 15px;
+}
+
+#workshop1Tekst {
+    width: 530px;
+    padding-right: 16px;
+}
+
+#workshop1Prijs {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 148px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#workshop1Prijs h4 {
+    color: #D55734;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#workshop1Prijs hr {
+    height: 2px;
+    color: #D55734;
+    background-color: #D55734;
+    border-color: #D55734;
+}
+
+/* Workshop 1 Inschrijven */
+
+#workshop1Inschrijven {
+    width: 812px;
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#workshop1InschrijvenTekst {
+    width: 530px;
+}
+
+#workshop1Inschrijven h3 {
+    margin-bottom: 30px;
+}
+
+#workshop1Inschrijven p {
+    margin-bottom: 30px;
+}
+
+#workshop1Form {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+}
+
+#workshop1Form label {
+    display: block;
+    font-family: Cabin;
+    font-size: 24px;
+    color: #D55734;
+}
+
+#workshop1Form input {
+    width: 247px;
+    padding: 5px 5px;
+    border-color: #D55734;
+    border-radius: 5px;
+}
+
+#workshop1InschrijvenFormBoven {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+#workshop1InschrijvenFormLinks {
+    width: 50%;
+}
+
+#workshop1InschrijvenFormRechts {
+    width: 50%;
+}
+
+#workshop1InschrijvenFormOnder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+#workshop1InschrijvenFormOnder button {
+    padding: 12px 25px;
+}
+
+/* Workshop 2 */
+#workshop2 {
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEFE5;
+}
+
+#workshop2Info {
+    display: flex;
+    flex-direction: row;
+}
+
+#workshop2 h2 {
+    margin-bottom: 30px;
+}
+
+#workshop2Image {
+    width: 266px;
+}
+
+#workshop2Image img {
+    width: 266px;
+    height: 266px;
+    border-radius: 15px;
+}
+
+#workshop2Tekst {
+    width: 530px;
+    padding-right: 16px;
+}
+
+#workshop2Prijs {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 148px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#workshop2Prijs h4 {
+    color: #D55734;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#workshop2Prijs hr {
+    height: 2px;
+    color: #D55734;
+    background-color: #D55734;
+    border-color: #D55734;
+}
+
+/* Workshop 2 Inschrijven */
+
+#workshop2Inschrijven {
+    width: 812px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#workshop2InschrijvenTekst {
+    width: 530px;
+}
+
+#workshop2Inschrijven h3 {
+    margin-bottom: 30px;
+}
+
+#workshop2Inschrijven p {
+    margin-bottom: 30px;
+}
+
+#workshop2Form {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+}
+
+#workshop2Form label {
+    display: block;
+    font-family: Cabin;
+    font-size: 24px;
+    color: #D55734;
+}
+
+#workshop2Form input {
+    width: 247px;
+    padding: 5px 5px;
+    border-color: #D55734;
+    border-radius: 5px;
+}
+
+#workshop2InschrijvenFormBoven {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+#workshop2InschrijvenFormLinks {
+    width: 50%;
+}
+
+#workshop2InschrijvenFormRechts {
+    width: 50%;
+}
+
+#workshop2InschrijvenFormOnder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+#workshop2InschrijvenFormOnder button {
+    padding: 12px 25px;
+}

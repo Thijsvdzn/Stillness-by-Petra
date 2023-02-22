@@ -119,8 +119,6 @@ input {
     width: 100%;
 }
 
-#rechts button {
+#onder button {
     padding: 12px 25px;
-    display: flex;
-    align-items: flex-end;
 }
