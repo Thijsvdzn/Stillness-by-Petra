@@ -1,0 +1,110 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerImage {
+    height: 90vh;
+    background-image: url(../images/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#headerText {
+    width: 1088px;
+}
+
+#contactInfo {
+    width: 1088px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contactTekst {
+    width: 244px;
+    margin-right: 16px;
+}
+
+#contactSocials{
+    width: 122px;
+    margin-right: 16px;
+}
+
+#contactForm {
+    width: 690px;
+}
+
+#contactSocials ul {
+    list-style-type: none;
+}
+
+#contactSocials li {
+    font-size: 16px;
+    font-family: Cabin;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+}
+
+label {
+    display: block;
+    font-family: Cabin;
+    font-size: 24px;
+    color: #D55734;
+}
+
+input, textarea {
+    width: 247px;
+    padding: 5px 5px;
+    border-color: #D55734;
+    border-radius: 5px;
+    resize: none;
+}
+
+#boven, #midden-boven {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+#bericht {
+    width: 510px;
+    margin-bottom: 16px;
+    height: 150px;
+}
+
+.links {
+    width: 50%;
+}
+
+.rechts {
+    width: 50%;
+}
+
+#onder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+#onder button {
+    padding: 12px 25px;
+}
+
+span {
+    font-size: 12px;
+}
