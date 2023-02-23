@@ -52,6 +52,14 @@ a:hover {
     color: #D55734;
 }
 
+button a {
+    color: #FFFFFF;
+}
+
+button a:hover {
+    color: #FFFFFF;
+}
+
 /* FOOTER */
 #footer {
     width: 100%;
